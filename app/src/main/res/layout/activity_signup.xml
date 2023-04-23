@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".SignupActivity">
+
+    <TextView
+        android:id="@+id/textViewSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/signup"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editFirstName"
+        android:layout_width="365dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/textViewSignup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/first_name"
+        android:inputType=""
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/editTextLastName"
+        android:layout_width="365dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/editFirstName"
+        android:layout_centerHorizontal="true"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/last_name"
+        android:inputType=""
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="365dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/editTextLastName"
+        android:layout_centerHorizontal="true"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/username"
+        android:inputType=""
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="365dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/editTextUsername"
+        android:layout_centerHorizontal="true"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="365dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/editTextEmail"
+        android:layout_centerHorizontal="true"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType=""
+        android:textColorHint="@color/black"
+        tools:ignore="TextFields" />
+
+    <EditText
+        android:id="@+id/ediTextConfirmPassword"
+        android:layout_width="365dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/editTextPassword"
+        android:layout_centerHorizontal="true"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/confirm_password"
+        android:inputType=""
+        android:textColorHint="@color/black"
+        tools:ignore="TextFields" />
+
+
+    <Button
+        android:id="@+id/btnCreateAccount"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ediTextConfirmPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:text="@string/signup"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textViewNoAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnCreateAccount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/yes_account"
+        android:textSize="15sp" />
+
+</RelativeLayout>

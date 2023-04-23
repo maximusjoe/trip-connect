@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_blue"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="35dp"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            app:cardMaxElevation="12dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:id="@+id/innerBody"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/flightTrackTextView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/current_flight"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/flightTrackTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/flight_loading"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <androidx.fragment.app.FragmentContainerView
+                    android:id="@+id/mapAPI"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    android:layout_width="350dp"
+                    android:layout_height="325dp"
+                    android:layout_marginTop="5dp" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/pw"
+            android:layout_width="match_parent"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/code"
+            android:layout_width="match_parent"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/saveAsTripButton"
+            android:layout_width="203dp"
+            android:layout_height="49dp"
+            android:backgroundTint="@color/white"
+            android:text="@string/save_astrip"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/flightTrackBackButton"
+            android:layout_width="203dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="2dp"
+            android:backgroundTint="@color/white"
+            android:text="@string/back"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/navbar" />
+
+</RelativeLayout>

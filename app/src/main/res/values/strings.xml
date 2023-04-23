@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Trip Connect</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="login_btn_text">Login</string>
+    <string name="signup">Sign up</string>
+    <string name="no_account">Create an Account</string>
+    <string name="yes_account">Already have an account yet? Login in from here!</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="email">Email</string>
+    <string name="welcome">Welcome to</string>
+    <string name="title">Trip Connect</string>
+    <string name="landing_description">Connect your trip to a\nloved one’s device.</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="brand">Tech Adventures Inc.</string>
+
+    <string name="hello_text">Welcome</string>
+    <string name="trip_question_text">Are you </string>
+    <string name="or_text">OR</string>
+    <string name="take_trip_btn">Taking a Trip</string>
+    <string name="other_trip_btn">Watching someone else\'s trip </string>
+
+    <string name="trip_type">View Ongoing Flight:</string>
+    <string name="flight_btn">Search for flight</string>
+    <string name="train_ride_btn">Train Ride</string>
+    <string name="taxi_btn">Taxi / Uber</string>
+
+    <string name="find_flight">Find your Flight:</string>
+    <string name="flight_number">Flight number</string>
+    <string name="my_trip">My Trip:</string>
+    <string name="flight_data">01234YVR : YVR - YYC\n22:30 June 10, 2022</string>
+    <string name="enter_trip_name">Enter Trip Name</string>
+    <string name="share_my_trip">Share My Trip</string>
+    <string name="map_description">Feel a sense of peace, track your loved one\'s trip to make sure they are safe.</string>
+    <string name="trip_code">Please entre trip code</string>
+    <string name="code">Code:</string>
+    <string name="home">Home</string>
+    <string name="flights">Flights</string>
+    <string name="view">View</string>
+    <string name="flight_loading">Flight: Loading...</string>
+    <string name="back">Back</string>
+    <string name="save_astrip">Save As Trip</string>
+    <string name="btnCompleteTrip">Complete Current Trip</string>
+    <string name="address">Enter Flight Code ICAO 24-BIT ADDRESS</string>
+    <string name="unique_aircraft_id">Unique Aircraft ID</string>
+    <string name="search">Search</string>
+    <string name="btnViewRegisteredTrip">View Trip</string>
+    <string name="findTrip">Find</string>
+    <string name="enterTripPassword">Enter Trip Password</string>
+    <string name="buttonTripPassword">View</string>
+    <string name="current_flight">Current Flight:</string>
+    <string name="currently_tracked_flight">Currently Tracked Flight:</string>
+    <string name="tripSecret">Trip Secret</string>
+
+
+</resources>
